@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Learners Academy Subject Creation Form</title>
+</head>
+<body>
+<jsp:include page="my-header.html"/>
+<h2>Learners Academy Subject Creation Form</h2>
+
+<hr/>
+
+<form action="/Learners-Academy/insert-data" method="post">
+
+    <table>
+        <tr>
+            <td>Subject : </td>
+            <td><input type="text" name="SUBJECT1"/></td>
+        </tr>
+        
+        <tr>
+            <td><input type="submit" value="Create Subjects"/></td>
+            <td><input type="reset" value="Clear"/></td>
+        </tr>
+    </table>
+</form>
+<jsp:include page="my-footer.jsp"/>
+</body>
+</html>
